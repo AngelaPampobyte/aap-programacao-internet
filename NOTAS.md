@@ -3,6 +3,7 @@ Aqui vou deixar anotações minhas ao longo dos estudos, para fixar e poder cons
 
 ## Outras anotações
 Também posso retornar uma página html na própria função, ao acessar a rota. Só escrever entre """ """
+Fiz um pequeno teste, e consigo usar a tag <a> para navegar entre as rotas que criei na aplicação! até então eu havia usado apenas para acesso de arquivos salvos
 
 ## Anotações de comandos!
 
