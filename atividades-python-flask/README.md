@@ -7,3 +7,5 @@ Criar um pequeno portal utilizando python e flask
  - professores
  - /alunos/Nome
  - /disciplina/Nome
+
+python -m flask --app portal run --debug
