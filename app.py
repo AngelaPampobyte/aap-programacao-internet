@@ -2,6 +2,12 @@ from flask import Flask
 app = Flask(__name__)
 @app.route("/")
 def inicio():
-    return "Minha primeira aplicação web com Python e Flask"
+    return "Minha primeira aplicação web com Python"
 
-# comando para rodar: python -m flask --app app run --debug
+@app.route("/Sobre")
+def sobre():
+    return "Sistema desenvolvido com Python e Flask"
+
+@app.route("/contato")
+def contato():
+    return "Entre em contato conosto!"
