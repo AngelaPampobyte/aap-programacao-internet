@@ -1,6 +1,8 @@
 ## Sobre
 Aqui vou deixar anotações minhas ao longo dos estudos, para fixar e poder consultar posteriormente
 
+## Outras anotações
+Também posso retornar uma página html na própria função, ao acessar a rota. Só escrever entre """ """
 
 ## Anotações de comandos!
 
@@ -20,3 +22,8 @@ Para acessar, basta colocar o nome que eu criei após o endereço
 Dentro do endereço da rota e do parâmetro posso, posso já definir o tipo da variável de entrada, para converter automaticamente a informação recebida. Isso provavelmente já evita erros
 exemplo:
 app.route("/media/<float:nota1:>/<float:nota2>")
+
+(os testes estão sendo feitos por enquanto inserindo os dados diretamente ao link)
+
+## problemas:
+Um pequeno detalhe no tipo da variavel. Por colocar o tipo "float" ele não aceita qualquer valor que não possua .0 ou qualquer número
