@@ -15,3 +15,8 @@ Ao acessar o endereço, já receberemos o return da função inicio().
 agora vamos criar mais algumas rotas para o arquivo do backend. Muito mais simples do que esperava e vi em outras linguagens! 
 Basta apenas nomear as rotas e criar funções de retorno para cada uma, este é o mais básico, por enquanto.
 Para acessar, basta colocar o nome que eu criei após o endereço
+
+# Parâmetros de rota: 
+Dentro do endereço da rota e do parâmetro posso, posso já definir o tipo da variável de entrada, para converter automaticamente a informação recebida. Isso provavelmente já evita erros
+exemplo:
+app.route("/media/<float:nota1:>/<float:nota2>")

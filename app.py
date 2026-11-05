@@ -11,3 +11,12 @@ def sobre():
 @app.route("/contato")
 def contato():
     return "Entre em contato conosto!"
+
+@app.route("/aluno/<nome>")
+def aluno(nome):
+    return f"Olá, {nome}! Bem vindo a disciplina."
+
+@app.route("/media/<float:nota1>/<float:nota2>")
+def media(nota1, nota2):
+    resultado = (nota1 + nota2)/2
+    return f"A media do aluno é {resultado}"
